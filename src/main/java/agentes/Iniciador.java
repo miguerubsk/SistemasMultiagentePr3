@@ -13,7 +13,7 @@ import jade.core.Agent;
  * Esqueleto de agente para la estructura general que deben tener todos los
  * agentes
  */
-public class AgentePlantilla extends Agent {
+public class Iniciador extends Agent {
     //Variables del agente
 
     @Override

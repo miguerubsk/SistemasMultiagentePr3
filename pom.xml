@@ -14,7 +14,12 @@
     <repositories>
         <repository> 
             <id>tilab</id> 
-            <url>http://jade.tilab.com/maven/</url> 
+            <url>https://jade.tilab.com/maven/</url> 
+        </repository>
+        
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
     
@@ -41,6 +46,18 @@
             <groupId>com.tilab.jade</groupId> 
             <artifactId>jade-wsdc</artifactId> 
             <version>2.7.0</version>  
+        </dependency>
+        
+        <dependency>  
+            <groupId>com.tilab.jade</groupId> 
+            <artifactId>jade</artifactId> 
+            <version>4.5.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.github.PedroJSanchez</groupId>
+            <artifactId>Ontologias</artifactId>
+            <version>3.5</version>
         </dependency>
         
         <dependency>  
